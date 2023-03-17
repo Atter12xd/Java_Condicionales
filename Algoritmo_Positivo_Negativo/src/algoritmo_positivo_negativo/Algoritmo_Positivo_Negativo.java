@@ -8,6 +8,7 @@ public class Algoritmo_Positivo_Negativo {
         String nombre = ""; // Creamos un String 
         System.out.println("Ingrese su nombre: "); // pedimos al usario que ingrese su nombre
         nombre = dato.nextLine(); // Leemos la cadena String
+        System.out.println("Hola! " + nombre); // Saludamos y llamamos a la variable nombre
 
         
     }
