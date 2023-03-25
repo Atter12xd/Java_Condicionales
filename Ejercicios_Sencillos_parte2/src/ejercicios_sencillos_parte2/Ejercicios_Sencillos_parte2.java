@@ -23,6 +23,9 @@ public class Ejercicios_Sencillos_parte2 {
         int num1 = ingreso.nextInt();
         System.out.println("Ingrese su segundo numero donde va a ser el rango: ");
         int num2 = ingreso.nextInt();
+        if (num1 > num2) {
+            System.out.println("El primero numero es menor que tu segundo numero! vuelva a ejecutar");
+        }
 
         while (num1 <= num2) {
             if (num1 % 2 == 0) {
@@ -35,6 +38,7 @@ public class Ejercicios_Sencillos_parte2 {
                 num1 = num1 + 2;
 
             }
+
         }
     }
 }
