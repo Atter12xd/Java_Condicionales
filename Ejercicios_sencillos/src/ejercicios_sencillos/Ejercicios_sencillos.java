@@ -5,7 +5,7 @@ public class Ejercicios_sencillos {
 
     public static void main(String[] args) {
         System.out.println("Morning, Morning, Morning");
-        System.out.println("        Hello, Have a good day");
+        System.out.println("\tHave a good day");
         System.out.println("                 oh! Thank you");
         System.out.println("                              ");
         System.out.println("                              ");
